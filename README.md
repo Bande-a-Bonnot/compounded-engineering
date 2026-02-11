@@ -98,7 +98,7 @@ Use the pipeline for end-to-end. Use individual commands for targeted work.
 Fork and edit `commands/workflows/pipeline.md`. Common changes:
 
 - Remove review bot comments (lines with @codex, /gemini)
-- Remove ralph-loop steps (lines 1 and 10)
+- Remove ralph-loop steps (steps 1 and 10)
 - Add your own review commands
 
 ## License
