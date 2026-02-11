@@ -1,0 +1,21 @@
+{
+  "name": "compounded-engineering",
+  "version": "0.1.0",
+  "description": "End-to-end development pipeline: brainstorm, plan, deepen, review, implement, compound. One command to rule them all.",
+  "author": {
+    "name": "Bande-a-Bonnot",
+    "url": "https://github.com/Bande-a-Bonnot"
+  },
+  "repository": "https://github.com/Bande-a-Bonnot/compounded-engineering",
+  "license": "MIT",
+  "keywords": [
+    "pipeline",
+    "workflow-automation",
+    "compound-engineering",
+    "orchestrator"
+  ],
+  "prerequisites": [
+    "compound-engineering (>=2.30.0) - https://github.com/EveryInc/compound-engineering-plugin",
+    "ralph-loop (optional) - official Claude plugin"
+  ]
+}
