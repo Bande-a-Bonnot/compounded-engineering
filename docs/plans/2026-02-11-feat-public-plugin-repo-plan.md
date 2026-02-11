@@ -259,15 +259,15 @@ requires-plugins: ["compound-engineering", "ralph-loop"]
 
 ## Acceptance Criteria
 
-- [ ] Public repo exists at `github.com/Bande-a-Bonnot/compounded-engineering`
-- [ ] `.claude-plugin/plugin.json` with valid metadata and `prerequisites` field
-- [ ] `commands/workflows/pipeline.md` at correct plugin path with enriched frontmatter
-- [ ] All external command references fully-qualified in pipeline.md
-- [ ] README.md follows hybrid Ankane style with ASCII flow, interaction contract table
-- [ ] MIT LICENSE file
-- [ ] `.gitignore` excludes local state files (`.claude/`, `*.local.md`, `.DS_Store`)
-- [ ] No personal paths or secrets in committed files
-- [ ] Design docs included in `docs/` for transparency
+- [x] Public repo exists at `github.com/Bande-a-Bonnot/compounded-engineering`
+- [x] `.claude-plugin/plugin.json` with valid metadata and `prerequisites` field
+- [x] `commands/workflows/pipeline.md` at correct plugin path with enriched frontmatter
+- [x] All external command references fully-qualified in pipeline.md
+- [x] README.md follows hybrid Ankane style with ASCII flow, interaction contract table
+- [x] MIT LICENSE file
+- [x] `.gitignore` excludes local state files (`.claude/`, `*.local.md`, `.DS_Store`)
+- [x] No personal paths or secrets in committed files
+- [x] Design docs included in `docs/` for transparency
 
 ## Dependencies & Risks
 
