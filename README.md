@@ -60,12 +60,14 @@ Phase 1 (interactive):
 4. Review -- multi-agent plan review; approve or reject
 
 Phase 2 (autonomous):
+
 5. Implement -- fresh Task agent per milestone
 6. Open PR, request reviews (Codex, Gemini)
 7. Address feedback, monitor CI
 8. Compound learnings to branch
 
 Phase 3:
+
 9. Report PR URL(s). You merge.
 
 For milestone plans, one agent per milestone. Pipeline waits for
