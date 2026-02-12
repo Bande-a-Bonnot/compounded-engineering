@@ -32,10 +32,13 @@ claude plugin install compound-engineering
 
 ## Installation
 
-```
-git clone https://github.com/Bande-a-Bonnot/compounded-engineering.git
-claude --plugin-dir ./compounded-engineering
-```
+Add the marketplace:
+
+    /plugin marketplace add https://github.com/Bande-a-Bonnot/compounded-engineering
+
+Install the plugin:
+
+    /plugin install compounded-engineering
 
 ## Usage
 
