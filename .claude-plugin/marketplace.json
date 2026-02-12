@@ -1,0 +1,25 @@
+{
+  "name": "compounded-engineering-marketplace",
+  "owner": {
+    "name": "Bande-a-Bonnot",
+    "url": "https://github.com/Bande-a-Bonnot"
+  },
+  "metadata": {
+    "description": "Marketplace for compounded-engineering Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "compounded-engineering",
+      "description": "End-to-end development pipeline: brainstorm, plan, deepen, review, implement, compound. One command to rule them all.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Bande-a-Bonnot",
+        "url": "https://github.com/Bande-a-Bonnot"
+      },
+      "homepage": "https://github.com/Bande-a-Bonnot/compounded-engineering",
+      "tags": ["pipeline", "workflow-automation", "compound-engineering", "orchestrator"],
+      "source": "./plugins/compounded-engineering"
+    }
+  ]
+}
