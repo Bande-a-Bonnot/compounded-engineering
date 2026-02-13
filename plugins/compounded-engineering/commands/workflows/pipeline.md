@@ -8,11 +8,13 @@ requires-plugins: ["compound-engineering", "ralph-loop"]
 
 Run these steps in order. Do not do anything else.
 
-1. `/ralph-loop:ralph-loop "finish all pipeline steps" --completion-promise "PIPELINE_DONE"`
+## Phase 1: Brainstorm (Interactive)
 
-## Phase 1: Brainstorm & Plan (Interactive)
+1. `/compound-engineering:workflows:brainstorm $ARGUMENTS`
 
-2. `/compound-engineering:workflows:brainstorm $ARGUMENTS`
+## Phase 2: Plan & Refine (Autonomous)
+
+2. `/ralph-loop:ralph-loop "finish all pipeline steps" --completion-promise "PIPELINE_DONE"`
 3. `/compound-engineering:workflows:plan` (auto-detects brainstorm from docs/brainstorms/)
 4. `/compound-engineering:deepen-plan`
 5. `/compound-engineering:plan_review` on the plan file
@@ -20,7 +22,7 @@ Run these steps in order. Do not do anything else.
    - Yes → apply changes to the plan
    - No → proceed as-is
 
-## Phase 2: Implement (Autonomous -- fresh Task agent per unit of work)
+## Phase 3: Implement (Autonomous -- fresh Task agent per unit of work)
 
 7. Read the plan. If it has milestones, process each sequentially. For each
    milestone (or the whole plan if no milestones), spawn a fresh Task agent:
@@ -48,7 +50,7 @@ Run these steps in order. Do not do anything else.
    Merge when ready and let me know to continue." Wait for my confirmation
    before spawning the next milestone's agent.
 
-## Phase 3: Done
+## Phase 4: Done
 
 9. Report completion with PR URL(s).
 10. Output `<promise>PIPELINE_DONE</promise>`
