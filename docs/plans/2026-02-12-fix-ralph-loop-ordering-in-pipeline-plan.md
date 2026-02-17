@@ -22,12 +22,12 @@ The pipeline command starts a ralph loop in step 1, before the brainstorm in ste
 
 **Current order (broken):**
 1. `/ralph-loop:ralph-loop` ← starts autonomous loop
-2. `/workflows:brainstorm` ← needs interactivity, but ralph loop suppresses it
+2. `/compound-engineering:workflows:brainstorm` ← needs interactivity, but ralph loop suppresses it
 
 **Fixed order:**
-1. `/workflows:brainstorm $ARGUMENTS` ← interactive, asks questions
+1. `/compound-engineering:workflows:brainstorm $ARGUMENTS` ← interactive, asks questions
 2. `/ralph-loop:ralph-loop` ← now safe to start autonomous loop
-3. `/workflows:plan` ← autonomous from here on
+3. `/compound-engineering:workflows:plan` ← autonomous from here on
 
 ## Enhancement Summary
 
