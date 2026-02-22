@@ -1,6 +1,6 @@
 {
   "name": "compounded-engineering",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "End-to-end development pipeline: brainstorm, plan, deepen, review, implement, compound. One command to rule them all. Requires compound engineering >=2.30.0 (https://github.com/EveryInc/compound-engineering-plugin) and (optional) ralph-loop (official Claude plugin)",
   "author": {
     "name": "Bande-a-Bonnot",
